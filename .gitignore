@@ -1,0 +1,30 @@
+# ChromaDB vector store
+chroma_db/
+chroma_db/**
+*.chroma/
+*.duckdb
+*.parquet
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+.env
+pid_venv/
+
+# RAG data (don't push large embedding files)
+rag_data/
+*.npy
+*.pkl
+*.pickle
+chunks_text.txt
+sentences_text.txt
+chunks_review.txt
+sentences_review.txt
+
+# PDFs (don't push source PDFs)
+data/*.pdf
+*.pdf
